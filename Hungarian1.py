@@ -113,7 +113,7 @@ with tab1:
   st.sidebar.header("**User Input** Sidebar")
 
   age = st.sidebar.number_input(label=":blue[**Age**]", min_value=df_final['age'].min(), max_value=df_final['age'].max())
-  st.sidebar.write(f":orange[Min] value: :orange[**{df_final['age'].min()}**], :red[Max] value: :red[**{df_final['age'].max()}**]")
+  st.sidebar.write(f":yellow[Min] value: :yellow[**{df_final['age'].min()}**], :violet[Max] value: :violet[**{df_final['age'].max()}**]")
   st.sidebar.write("")
 
   sex_sb = st.sidebar.selectbox(label=":blue[**Sex**]", options=["Male", "Female"])
@@ -143,11 +143,11 @@ with tab1:
   # -- Value 4: asymptomatic
 
   trestbps = st.sidebar.number_input(label=":blue[**Resting blood pressure** (in mm Hg on admission to the hospital)]", min_value=df_final['trestbps'].min(), max_value=df_final['trestbps'].max())
-  st.sidebar.write(f":orange[Min] value: :orange[**{df_final['trestbps'].min()}**], :red[Max] value: :red[**{df_final['trestbps'].max()}**]")
+  st.sidebar.write(f":yellow[Min] value: :yellow[**{df_final['trestbps'].min()}**], :violet[Max] value: :violet[**{df_final['trestbps'].max()}**]")
   st.sidebar.write("")
 
   chol = st.sidebar.number_input(label=":blue[**Serum cholestoral** (in mg/dl)]", min_value=df_final['chol'].min(), max_value=df_final['chol'].max())
-  st.sidebar.write(f":orange[Min] value: :orange[**{df_final['chol'].min()}**], :red[Max] value: :red[**{df_final['chol'].max()}**]")
+  st.sidebar.write(f":yellow[Min] value: :yellow[**{df_final['chol'].min()}**], :violet[Max] value: :violet[**{df_final['chol'].max()}**]")
   st.sidebar.write("")
 
   fbs_sb = st.sidebar.selectbox(label=":blue[**Fasting blood sugar > 120 mg/dl?**]", options=["False", "True"])
@@ -174,7 +174,7 @@ with tab1:
   # -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 
   thalach = st.sidebar.number_input(label=":blue[**Maximum heart rate achieved**]", min_value=df_final['thalach'].min(), max_value=df_final['thalach'].max())
-  st.sidebar.write(f":orange[Min] value: :orange[**{df_final['thalach'].min()}**], :red[Max] value: :red[**{df_final['thalach'].max()}**]")
+  st.sidebar.write(f":yellow[Min] value: :yellow[**{df_final['thalach'].min()}**], :violet[Max] value: :violet[**{df_final['thalach'].max()}**]")
   st.sidebar.write("")
 
   exang_sb = st.sidebar.selectbox(label=":blue[**Exercise induced angina?**]", options=["No", "Yes"])
@@ -188,7 +188,7 @@ with tab1:
   # -- Value 1: Yes
 
   oldpeak = st.sidebar.number_input(label=":blue[**ST depression induced by exercise relative to rest**]", min_value=df_final['oldpeak'].min(), max_value=df_final['oldpeak'].max())
-  st.sidebar.write(f":orange[Min] value: :orange[**{df_final['oldpeak'].min()}**], :red[Max] value: :red[**{df_final['oldpeak'].max()}**]")
+  st.sidebar.write(f":yellow[Min] value: :yellow[**{df_final['oldpeak'].min()}**], :violet[Max] value: :violet[**{df_final['oldpeak'].max()}**]")
   st.sidebar.write("")
 
   data = {
