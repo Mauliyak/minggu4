@@ -99,11 +99,11 @@ df_final['target'] = y
 
 # STREAMLIT
 st.set_page_config(
-  page_title = "Hungarian Heart Disease",
-  page_icon = ":star:"
+  page_title = "🅷🆄🅽🅶🅰🆁🅸🅰🅽 🅷🅴🅰🆁🆃 🅳🅸🆂🅴🅰🆂🅴",
+  page_icon = ":apple:"
 )
 
-st.title("Hungarian Heart Disease")
+st.title("ℌ𝔲𝔫𝔤𝔞𝔯𝔦𝔞𝔫 ℌ𝔢𝔞𝔯𝔱 𝔇𝔦𝔰𝔢𝔞𝔰𝔢")
 st.write(f"**_Model's Accuracy_** :  :blue[**{accuracy}**]% (:violet[_Do not copy outright_])")
 st.write("")
 
